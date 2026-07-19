@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="232" viewBox="0 0 500 232" role="img" aria-labelledby="stats-title stats-desc">
+  <title id="stats-title">Omkar Supe public profile snapshot</title>
+  <desc id="stats-desc">A soft pink custom DOS card showing 23 public repositories, 5 featured builds, 3 visible achievements, 8 banner technologies, and 1 public follower. Snapshot 19 July 2026. The DOS ring is a decorative brand mark, not a rank.</desc>
+
+  <defs>
+    <linearGradient id="stats-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffafd"/>
+      <stop offset="0.52" stop-color="#fff3fa"/>
+      <stop offset="1" stop-color="#f7efff"/>
+    </linearGradient>
+    <linearGradient id="stats-pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7eb6"/>
+      <stop offset="0.55" stop-color="#e879f9"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="stats-shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="stats-halo">
+      <stop offset="0" stop-color="#ff7eb6" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#ff7eb6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="stats-shadow" x="-30%" y="-40%" width="160%" height="190%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#9333a8" flood-opacity="0.12"/>
+    </filter>
+    <filter id="stats-soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="stats-shell"><rect x="1" y="1" width="498" height="230" rx="18"/></clipPath>
+    <clipPath id="stats-ring"><circle cx="76" cy="127" r="51"/></clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: "Segoe UI", Inter, Arial, sans-serif; }
+    .mono { font-family: Consolas, "SFMono-Regular", monospace; }
+    .label { font-size: 8.2px; font-weight: 700; letter-spacing: .5px; fill: #76506f; }
+    .value { font-size: 19px; font-weight: 900; fill: #52214d; }
+    .tile { transform-box: fill-box; transform-origin: center; animation: stats-pop .55s cubic-bezier(.2,.85,.3,1) both; }
+    .t2 { animation-delay: .06s; } .t3 { animation-delay: .12s; }
+    .t4 { animation-delay: .18s; } .t5 { animation-delay: .24s; }
+    .spark { animation: stats-twinkle 2.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .s2 { animation-delay: .8s; } .s3 { animation-delay: 1.5s; }
+    .ring { animation: stats-float 4.5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .shine { animation: stats-shine 5s ease-in-out infinite; }
+    @keyframes stats-pop { from { transform: translateY(3px) scale(.985); } to { transform: translateY(0) scale(1); } }
+    @keyframes stats-twinkle { 0%,100% { opacity:.4; transform:scale(.8) rotate(0deg); } 50% { opacity:1; transform:scale(1.15) rotate(12deg); } }
+    @keyframes stats-float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-2px); } }
+    @keyframes stats-shine { 0%,70%,100% { transform:translateX(-135px); opacity:0; } 80% { opacity:.7; } 94% { transform:translateX(235px); opacity:0; } }
+    @media (prefers-reduced-motion: reduce) { .tile,.spark,.ring,.shine { animation:none !important; } }
+  </style>
+
+  <g clip-path="url(#stats-shell)">
+    <rect x="1" y="1" width="498" height="230" rx="18" fill="url(#stats-bg)"/>
+    <circle cx="27" cy="28" r="98" fill="url(#stats-halo)"/>
+    <circle cx="481" cy="219" r="104" fill="#c084fc" opacity=".06"/>
+    <path d="M0 58C78 34 124 73 194 51S341 24 500 59V0H0Z" fill="#ffffff" opacity=".44"/>
+    <path d="M-45 205C52 158 105 232 201 195S365 166 545 205V250H-45Z" fill="#ff7eb6" opacity=".055"/>
+  </g>
+  <rect x="1" y="1" width="498" height="230" rx="18" fill="none" stroke="#f4a3cf" stroke-width="1.5"/>
+
+  <g transform="translate(17 13)">
+    <circle cx="14" cy="14" r="13" fill="#fff" stroke="#f3afd4"/>
+    <path d="M8 14c2-5 10-5 12 0M8 14c2 5 10 5 12 0" fill="none" stroke="#e879f9" stroke-width="1.4" stroke-linecap="round"/>
+    <text class="sans" x="14" y="17" text-anchor="middle" font-size="7.5" font-weight="900" fill="#8b3f80">DOS</text>
+  </g>
+  <text class="sans" x="52" y="23" font-size="7.3" font-weight="800" letter-spacing="1.5" fill="#b44d90">DESIGNING ORIGINAL SOLUTIONS</text>
+  <text class="sans" x="52" y="39" font-size="15" font-weight="900" fill="#4e204a">Public profile snapshot</text>
+  <g transform="translate(365 14)">
+    <rect width="118" height="26" rx="13" fill="#fff" stroke="#efb4d7"/>
+    <circle cx="13" cy="13" r="3.2" fill="#ff7eb6"/>
+    <text class="mono" x="23" y="11" font-size="6.3" letter-spacing=".6" fill="#a55a91">PUBLIC DATA</text>
+    <text class="mono" x="23" y="20" font-size="7.6" font-weight="700" fill="#63305c">19 JUL 2026</text>
+  </g>
+  <path d="M17 51H483" stroke="#efc5df"/>
+  <path d="M17 51H126" stroke="url(#stats-pink)" stroke-width="2" stroke-linecap="round"/>
+
+  <g class="ring">
+    <circle cx="76" cy="127" r="52" fill="#fff" filter="url(#stats-shadow)"/>
+    <circle cx="76" cy="127" r="47" fill="#fff8fc" stroke="#f0b1d4" stroke-width="1.2"/>
+    <circle cx="76" cy="127" r="38" fill="none" stroke="#efd9f8" stroke-width="7"/>
+    <circle cx="76" cy="127" r="38" pathLength="100" fill="none" stroke="url(#stats-pink)" stroke-width="7" stroke-linecap="round" stroke-dasharray="72 28" transform="rotate(-72 76 127)"/>
+    <circle cx="76" cy="127" r="28" fill="#fff"/>
+    <text class="sans" x="76" y="126" text-anchor="middle" font-size="18" font-weight="900" fill="#582250">DOS</text>
+    <text class="mono" x="76" y="139" text-anchor="middle" font-size="5.8" letter-spacing=".7" fill="#b05a96">BRAND MARK</text>
+    <path d="M47 82l2.2 4.2 4.3 2.2-4.3 2.2-2.2 4.2-2.2-4.2-4.3-2.2 4.3-2.2Z" fill="#ff7eb6"/>
+    <path class="spark" d="M109 154l1.7 3.2 3.3 1.7-3.3 1.7-1.7 3.3-1.7-3.3-3.3-1.7 3.3-1.7Z" fill="#c084fc"/>
+  </g>
+  <text class="sans" x="76" y="193" text-anchor="middle" font-size="6.3" font-weight="700" letter-spacing=".55" fill="#9b628e">DECORATIVE &#8226; NO RANK</text>
+
+  <g class="tile" filter="url(#stats-shadow)">
+    <rect x="139" y="65" width="106" height="59" rx="12" fill="#fff" stroke="#f4c4df"/>
+    <circle cx="156" cy="82" r="8" fill="#ffe5f1"/><path d="M152 82h8m-4-4v8" stroke="#df5797" stroke-width="1.5" stroke-linecap="round"/>
+    <text class="sans value" x="174" y="89">23</text><text class="sans label" x="151" y="112">PUBLIC REPOSITORIES</text>
+  </g>
+  <g class="tile t2" filter="url(#stats-shadow)">
+    <rect x="253" y="65" width="106" height="59" rx="12" fill="#fff" stroke="#edc4f6"/>
+    <circle cx="270" cy="82" r="8" fill="#fae8ff"/><path d="M266 85v-7h8v7m-6-7v-3h4v3" fill="none" stroke="#b85bd0" stroke-width="1.35" stroke-linejoin="round"/>
+    <text class="sans value" x="288" y="89">5</text><text class="sans label" x="265" y="112">FEATURED BUILDS</text>
+  </g>
+  <g class="tile t3" filter="url(#stats-shadow)">
+    <rect x="367" y="65" width="116" height="59" rx="12" fill="#fff" stroke="#e2c9f8"/>
+    <circle cx="384" cy="82" r="8" fill="#f1eaff"/><path d="m384 76 1.8 3.6 4 .6-2.9 2.8.7 4-3.6-1.9-3.6 1.9.7-4-2.9-2.8 4-.6Z" fill="none" stroke="#8b5cf6" stroke-width="1.1"/>
+    <text class="sans value" x="402" y="89">3</text><text class="sans label" x="379" y="112">VISIBLE ACHIEVEMENTS</text>
+  </g>
+  <g class="tile t4" filter="url(#stats-shadow)">
+    <rect x="139" y="133" width="163" height="59" rx="12" fill="#fff" stroke="#f4c4df"/>
+    <circle cx="156" cy="150" r="8" fill="#ffe5f1"/><path d="M151 147h10v7h-10Zm3-3h4v3" fill="none" stroke="#df5797" stroke-width="1.25"/>
+    <text class="sans value" x="174" y="157">8</text><text class="sans label" x="151" y="180">BANNER TECHNOLOGIES</text>
+  </g>
+  <g class="tile t5" filter="url(#stats-shadow)">
+    <rect x="310" y="133" width="173" height="59" rx="12" fill="#fff" stroke="#e5c7f7"/>
+    <circle cx="327" cy="150" r="8" fill="#f2eaff"/><circle cx="327" cy="147.5" r="2.5" fill="none" stroke="#8b5cf6" stroke-width="1.2"/><path d="M322.5 155c.6-3 2.1-4.3 4.5-4.3s3.9 1.3 4.5 4.3" fill="none" stroke="#8b5cf6" stroke-width="1.2" stroke-linecap="round"/>
+    <text class="sans value" x="345" y="157">1</text><text class="sans label" x="322" y="180">PUBLIC FOLLOWER</text>
+  </g>
+
+  <g clip-path="url(#stats-shell)" opacity=".32">
+    <rect class="shine" x="-90" y="54" width="68" height="143" transform="skewX(-17)" fill="url(#stats-shine)"/>
+  </g>
+  <g class="spark"><path d="M464 203l2.2 4.2 4.2 2.2-4.2 2.2-2.2 4.2-2.2-4.2-4.2-2.2 4.2-2.2Z" fill="#ff7eb6"/></g>
+  <g class="spark s2"><path d="M24 204l1.5 2.9 2.9 1.5-2.9 1.5-1.5 2.9-1.5-2.9-2.9-1.5 2.9-1.5Z" fill="#c084fc"/></g>
+  <text class="mono" x="250" y="218" text-anchor="middle" font-size="6.5" letter-spacing=".55" fill="#946388">GITHUB PUBLIC DATA + DECLARED PROFILE DETAILS</text>
+</svg>
