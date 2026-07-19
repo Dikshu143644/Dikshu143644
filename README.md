@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./omkar-banner.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./omkar-banner-light.svg?v=2">
-  <img src="./omkar-banner-light.svg?v=2" alt="Omkar Supe — DOS, Designing Original Solutions" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./omkar-banner.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./omkar-banner-light.svg?v=3">
+  <img src="./omkar-banner-light.svg?v=3" alt="Omkar Supe — DOS, Designing Original Solutions" width="100%">
 </picture>
 
 </div>
